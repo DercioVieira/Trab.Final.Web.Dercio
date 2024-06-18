@@ -4,22 +4,22 @@ body{
     margin: 0;
     padding: 10%;
     
-    background-image: url('imagem/abstract-1891289_1920.jpg');
+    background-image: url('imagem/photo-boards-OiV3i01sLqE-unsplash.jpg');
     font-family: "Times New Roman", Times, serif;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 2px;
     word-spacing: 0.4px;
-    color: #FFFFFF;
+    color: white;
     
     
 }
 table {
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
     margin: 25px 0;
-    background-color: #fff;
+    background-color: darkgoldenrod;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #333;
+    color: white;
 }
 
 th, td {
@@ -28,14 +28,14 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color:rgb(134, 6, 6);
     color: #333;
 }
 
 
 
 tr:hover {
-    background-color: #f1f1f1;
+    background-color: rgb(134, 6, 6);
 }
 
 .imgcabecalho{
@@ -45,6 +45,10 @@ tr:hover {
     border-radius: 50%;
     
     
+}
+.meunome{
+    display: flex;
+    justify-content: flex-start;
 }
 .abas{
     display: flex;
@@ -73,17 +77,17 @@ tr:hover {
 }
 
 .aba.ativa{
-    background-color: #4b30c7;
+    background-color: #7c201d;
     color: #fff;
 }
 
 .conteudo{
     padding: 20px;
-    border: 1px solid #ccc;
+   
     border-radius: 5px;
     display: none;
     text-align: center;
-    background-color: black;
+    
     margin: 20px;
 }
 
@@ -146,7 +150,7 @@ tr:hover {
     max-width: 100%;
 }
 form {
-    background-color: #fff;
+    background-color: black;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -164,11 +168,11 @@ input, textarea {
     border-radius: 4px;
 }
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: darkred;
     color: white;
     border: none;
     cursor: pointer;
 }
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: re;
 }

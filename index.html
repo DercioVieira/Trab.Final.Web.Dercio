@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        
+       
+        <div class="abas">
+            
+            <h1>Dércio Vieira</h1>
+            
+            <div id="aba-1" class="aba ativa" data-aba="conteudo-1" onclick="mostrarAba(this.id)">Sobre min</div>
+            <div id="aba-2" class="aba" data-aba="conteudo-2" onclick="mostrarAba(this.id)">Experiencia</div>
+            <div id="aba-3" class="aba" data-aba="conteudo-3" onclick="mostrarAba(this.id)">Projectos</div>
+            <div id="aba-4" class="aba" data-aba="conteudo-4" onclick="mostrarAba(this.id)">Contato</div>
+            <img class="imgcabecalho" src="imagem/IMG_20160921_115903.jpg" alt="">
+        
+        </div>
+
+        <div id="conteudo-1" class="conteudo ativa">
+            <h2>Sobre min</h2>
+            <p><br>Olá! Meu nome é Dércio Vieira, e ao longo da minha carreira, tive o privilégio de explorar diversas áreas profissionais que moldaram quem eu sou hoje.
+                <br> Comecei como guia turístico, aonde tive varias esperiencias a niveis culturais, liguisticas e conhecimento pessoal.
+                <br>Em seguida, embarquei na jornada como animador, onde aprendi a arte de entreter e criar experiências memoráveis para pessoas de todas as idades. 
+                <br>Minha jornada também me levou a assumir a responsabilidade como nadador salvador. 
+                <br>onde aprendi a importância da vigilância e responsabilidade e como atuar situações de emergência.
+                
+                <br>Atualmente, estou imerso em uma nova fase da minha carreira, embarcando em uma formação intensiva como técnico de programação. 
+                <br>Esta mudança reflete minha busca por desafios e meu desejo de explorar o vasto mundo da tecnologia, 
+                <br>aplicando minhas habilidades analíticas e criativas para desenvolver soluções inovadoras. 
+                <br>Estou entusiasmado com as oportunidades que o futuro reserva e comprometido em continuar aprendendo e crescendo profissionalmente.</p>
+            
+            
+        </div>
+        
+        
+        <div id="conteudo-2" class="conteudo">
+            <table>
+                <thead>
+                     <tr>
+                        <th>Entidade Empregadora</th>
+                        <th>Ocupação</th>
+                        <th>Data Início</th>
+                        <th>Data Fim</th>
+                        <th>País</th>
+                        <th>Cidade/Ilha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dream Tours</td>
+                        <td>Guia Turístico</td>
+                        <td>01/02/2014</td>
+                        <td>01/05/2014</td>
+                        <td>Cabo Verde</td>
+                        <td>Espargos/Sal</td>
+                    </tr>
+                    <tr>
+                        <td>Meliã Dunas</td>
+                        <td>Animador</td>
+                        <td>01/10/2014</td>
+                        <td>14/04/2017</td>
+                        <td>Cabo Verde</td>
+                        <td>Espargos/Sal</td>
+                    </tr>
+                    <tr>
+                        <td>Hilton</td>
+                        <td>N. Salvador</td>
+                        <td>01/11/2017</td>
+                        <td>01/06/2018</td>
+                        <td>Cabo Verde</td>
+                        <td>Espargos/Sal</td>
+                    </tr>
+                    <tr>
+                        <td>Sodade Tour</td>
+                        <td>Prestador de Serviço</td>
+                        <td>01/02/2019</td>
+                        <td>31/11/2019</td>
+                        <td>Cabo Verde</td>
+                        <td>Espargos/Sal</td>
+                    </tr>
+                </tbody>
+            </table>
+           
+        </div>
+        
+        <div id="conteudo-3" class="conteudo">
+            <h2>Projectos Finais</h2>
+            <div class="galeria">
+                
+                <div class="img-container">
+                    <img src="./imagem.jpg" alt="imagem 1" onclick="abrirModal('./imagem.jpg', 'Descrição da imagem 1')">
+                    <p>Projectos final de <br>Disigner de algoritimo.</p>
+                </div>
+                <br>
+                
+                <div class="img-container">
+                    <img src="./imagem.jpg" alt="imagem 2" onclick="abrirModal('./imagem.jpg', 'Descrição da imagem 2')">
+                    <p>Projectos final de <br> Disigner de Interface.</p>
+                </div>
+                <br>
+                
+                <div class="img-container">
+                    <img src="./imagem.jpg" alt="imagem 3" onclick="abrirModal('./imagem.jpg', 'Descrição da imagem 3')">
+                    <p>Projectos final de <br>Sistema de segurança.</p> 
+                </div>
+                    
+                <div class="img-container">
+                    <img src="./imagem.jpg" alt="imagem 4" onclick="abrirModal('./imagem.jpg', 'Descrição da imagem 4')">
+                    </p>Projectos final de <br>Metadologia de Desevolvimento.</p>
+                </div>
+            </div>
+        </div>
+        <div id="conteudo-4" class="conteudo">
+                
+            <h2>Formulário de Comentário</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="comentario">Comentário:</label><br>
+                <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea><br><br>
+                
+                <input type="submit" value="Enviar">
+            </form>
+            
+        </div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <img id="modal-img" src="" alt="imagem">
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+</html>

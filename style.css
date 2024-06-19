@@ -22,6 +22,8 @@ table {
     background-color: darkgoldenrod;
     box-shadow: 0 2px 4px white;
     color: white;
+    margin-left: 12%;
+    
 
     
 }
@@ -29,6 +31,7 @@ table {
 th, td {
     padding: 12px;
     border: 1px solid #ddd;
+    
     
 }
 
@@ -126,7 +129,7 @@ tr:hover {
 }
 
 .img-container img:hover{
-    transform: scale(0.96);
+    transform: scale(1.5);
 }
 
 .modal{
@@ -142,11 +145,11 @@ tr:hover {
 }
 
 .modal-content{
-    background-color: #fefefe;
+    background-color: red;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 120%;
     max-width: 600px;
    
     position: relative;
@@ -156,27 +159,31 @@ tr:hover {
     max-width: 100%;
 }
 form {
-    background-color: black;
+    background-color: rgb(128, 32, 32);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 500px;
     margin: auto;
+    
 }
 label, input, textarea {
-    display: block;
+    display: flex;
     width: 100%;
     margin-bottom: 10px;
+    justify-content: center;
+    
 }
 input, textarea {
-    padding: 10px;
+    padding-top:5px ;
+    padding-bottom: 5px;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
 input[type="submit"] {
-    background-color: darkred;
+    background-color: black;
     color: white;
-    border: none;
+    border: white;
     cursor: pointer;
 }
 input[type="submit"]:hover {

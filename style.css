@@ -3,9 +3,7 @@ body{
     font-family: sans-serif;
     margin: 0;
     padding: 8%;
-    
     background-image: url('imagem/abstract-1891289_1920.jpg');
-    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     letter-spacing: 2px;
     word-spacing: 0.4px;
@@ -200,9 +198,7 @@ video {
     width: 90%; /* Define a largura do vídeo */
     margin: 0 auto; /* Centraliza horizontalmente */
     display: block; /* Garante que o vídeo ocupe a largura total */
-    
-    width: 200px;
-    height: 150px;
+    height: 150px;/* Define a altura do vídeo */
 
   }
 
@@ -217,7 +213,7 @@ video {
     width: 40px; /* Largura do ícone, ajuste conforme necessário */
     height: 40px; /* Altura do ícone, ajuste conforme necessário */
    
-    text-decoration: none;
+    text-decoration: none;/* decoração do texto é none, nehum */
     border-radius: 50%; /* Para criar um círculo */
    
 }

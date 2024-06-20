@@ -193,7 +193,8 @@ input[type="submit"] {
     cursor: pointer;
 }
 input[type="submit"]:hover {
-    background-color: rgb(128, 32, 32);
+    background-color: white;
+    color: black;
 }
 video {
     width: 90%; /* Define a largura do vídeo */
@@ -211,3 +212,32 @@ video {
     
     
 }
+.facebook-link {
+    display: inline-block;
+    width: 40px; /* Largura do ícone, ajuste conforme necessário */
+    height: 40px; /* Altura do ícone, ajuste conforme necessário */
+   
+    text-decoration: none;
+    border-radius: 50%; /* Para criar um círculo */
+   
+}
+
+.icon-facebook {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image:url(imagem/Vector-Facebook-Logo-Black-And-White-PNG-Background-Image.png) ; /* URL do ícone do Facebook */
+    background-size: cover;
+   
+}
+footer {
+    border: 1px solid white;
+   
+   background-color: black;
+   height: 100px;
+   width: 60%;
+   margin-left: 20%;
+   background-image: url(imagem/th-removebg-preview.png);
+   
+}
+
